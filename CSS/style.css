@@ -135,6 +135,15 @@ input:focus{
 
 /* Sección Footer */
 
+footer{
+    border: solid 1px red;
+}
+
+#imagenRedes{
+    width: 65px;
+    
+}
+
 .secciónPiePagina{
     font-size: large;
     text-align: center;

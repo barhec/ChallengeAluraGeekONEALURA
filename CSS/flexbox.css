@@ -68,3 +68,25 @@ main{
     flex-flow: wrap;
     justify-content: space-between;
 }
+
+/* Sección Footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.redesSociales{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.redesSociales .icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
