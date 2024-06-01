@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - ONE/AluraLatam</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/flexbox.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <img src="assets/geek-logo.png" alt="Logo Geek" id="logoGeek">
+            <h1>AluraGeek</h1>
+        </div>
+    </header>
+    <main>
+        <div class="seccionProductos">
+            <h2>Mis Productos</h2>
+            <div class="productos" data-productos>
+            </div>
+        </div>
+        <div class="seccionFormulario">
+            <h2>Agregar Producto</h2>
+            <form class="contenedorForm" data-form>
+                <input placeholder="Nombre" type="text" data-name required>
+                <input placeholder="Precio" type="text" data-price required>
+                <input placeholder="Imagen" type="text" data-image required>
+                <div class="contenedorBotones">
+                    <button class="botonEnviar" type="submit">Enviar</button>
+                    <button class="botonLimpiar" type="reset">Limpiar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="secciónPiePagina">
+            <p>Barhec Studio</p>
+            <p>Desarrollado por Héctor Barrientos</p>
+            <p>- 2024 -</p>
+        </div>
+    </footer>
+    <script src="JS/controllers/main.js" type="module"></script>
+</body>
+</html>

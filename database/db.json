@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "name": "Sony BURANO 8K",
+      "price": "25,000",
+      "image": "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/sony_cinealta_burano_digital_cinema_1694511982_1786230.jpg",
+      "id": "1"
+    },
+    {
+      "name": "Kelvin Epos 600",
+      "price": "13,134",
+      "image": "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/kelvin_kelvin_k_epos_600_lk3_epos_600_3_light_kit_1687366814_1772722.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Blackmagic Design PYXIS",
+      "price": "3,195",
+      "image": "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/blackmagic_design_blpyxis6kpl_pyxis_6k_cinema_box_1712933734_1823586.jpg",
+      "id": "3"
+    },
+    {
+      "name": "ARRI ALEXA SXT Plus",
+      "price": "74,490",
+      "image": "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/arri_k1_0006383_alexa_sxt_plus_camera_1524666030_1294537.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Sony HDC-3100L",
+      "price": "27,187.50",
+      "image": "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/sony_hdc3100vfpac2_hdc_3100l_2_3_cmos_broadcast_1715695234_1828007.jpg",
+      "id": "5"
+    },
+    {
+      "name": "DJI Ronin 4D",
+      "price": "12,746",
+      "image": "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/dji_ronin_4d_4_axis_cinema_1709719003_1815209.jpg",
+      "id": "6"
+    },
+    {
+      "id": "c7ed",
+      "name": "Milos QuickTruss",
+      "price": "6,191",
+      "image": "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/milos_qtuu5x5x3_quicktruss_ultra_display_square_1439916744_1174557.jpg"
+    },
+    {
+      "id": "a9f0",
+      "name": "DJI Matrice 350 RTK",
+      "price": "20,358",
+      "image": "https://static.bhphoto.com/images/multiple_images/images500x500/1706724989_IMG_2179371.jpg"
+    },
+    {
+      "id": "dd9e",
+      "name": "Hasselblad 907X",
+      "price": "15,100",
+      "image": "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/hasselblad_cp_hb_00000705_01_907x_anniversary_edition_medium_1632998793_1664488.jpg"
+    }
+  ]
+}

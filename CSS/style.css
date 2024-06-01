@@ -1,0 +1,144 @@
+*{
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    background: #F2E9E4;
+}
+
+/* Sección Encabezado */
+
+header{
+    background: #22223B;
+    padding: 10px;
+}
+
+#logoGeek{
+    width: 10%;
+    filter: sepia(100%) brightness(70%) invert(100%);
+}
+
+h1{
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+/* Sección Productos */
+
+.seccionProductos{
+    width: 758px;
+    padding: 20px;
+}
+
+h2{
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: overline underline dotted;
+    text-transform: uppercase;
+}
+
+.productos{
+    width: 678px;
+    height: 971px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: gray 5px 5px 5px 0;
+}
+
+.tarjeta{
+    width: 196px;
+    height: 258px;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    background: #22223B;
+}
+
+.imgProductos{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.botonEliminar{
+    background: none;
+    border: none;   
+}
+
+
+.botonEliminar:hover{
+    animation: tilt-shaking 0.25s infinite;
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.imgEliminar{
+    width: 20px;
+    filter: brightness(300%) grayscale(100%);
+    cursor: pointer;
+}
+
+/* Sección Formulario */
+
+.seccionFormulario{
+    width: 472px;
+    height: 517px;
+}
+
+.contenedorForm{
+    width: auto;
+}
+
+input{
+    width: 392px;
+    height: 45px;
+    border-radius: 20px;
+    padding: 0 10px;
+    border: solid 1px #22223B;
+}
+
+input:focus{
+    outline: none;
+}
+
+.botonEnviar, .botonLimpiar{
+    width: 188px;
+    height: 55px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background: #22223B;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: top .01s linear;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 0 0 1px #585897 inset,
+        0 0 0 1px rgba(255,255,255,0.15) inset,
+        0 6px 0 0 #3a3a64,
+        0 6px 0 1px rgba(0,0,0,.4),
+        0 6px 8px 1px rgba(0,0,0,0.5);
+}
+
+.botonEnviar:active, .botonLimpiar:active{
+    box-shadow: 0 0 0 1px #585897 inset,
+          0 0 0 2px rgba(255,255,255,0.15) inset,
+          0 0 0 1px rgba(0,0,0,0.4);
+}
+
+/* Sección Footer */
+
+.secciónPiePagina{
+    font-size: large;
+    text-align: center;
+    color: white;
+    background: #22223B;
+    padding: 20px;
+}

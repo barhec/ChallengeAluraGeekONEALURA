@@ -1,0 +1,70 @@
+/* Sección Encabezado */
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sección de Productos */
+
+main{
+    display: flex;
+}
+
+.seccionProductos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.productos{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedorTarjetaInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contenedorTarjetaPrecio{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Sección Formulario */
+
+.seccionFormulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.contenedorForm{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contenedorBotones{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
