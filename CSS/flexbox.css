@@ -90,3 +90,33 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+/* Responsive */
+/* Mobile */
+
+@media screen and (max-width:767px){
+
+    main{
+        display: flex;
+        flex-flow: column-reverse;
+   }
+
+   /* Sección Formulario */
+
+   .contenedorBotones{
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+    /* Sección Productos */
+
+    .seccionProductos{
+        flex-flow: wrap;
+    }
+
+    .productos{
+        gap: 20px;
+        padding: 10px;
+    }
+
+}

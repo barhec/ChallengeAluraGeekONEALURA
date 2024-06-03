@@ -211,3 +211,43 @@ footer{
     color: white;
     padding-top: 20px;
 }
+
+/* Responsive */
+/* Mobile */
+
+@media screen and (max-width:767px){
+    /* Sección Formulario */
+
+    .seccionFormulario{
+        width: 100%;
+        padding: 0px;
+    }
+
+    input{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .botonEnviar, .botonLimpiar{
+        width: 180px;
+    }
+
+    /* Sección Productos */
+
+    .seccionProductos{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .productos{
+        height: 470px;
+        width: 100%;
+        overflow-y: scroll;
+    }
+
+    .tarjeta{
+        width: 42%;
+        height: 210px;
+    }
+
+}
