@@ -30,14 +30,15 @@ main{
     display: flex;
     flex-flow: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
 }
 
 .tarjeta{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 8px;
+    padding: 9px;
 }
 
 .contenedorTarjetaInfo{
