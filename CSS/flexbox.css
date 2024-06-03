@@ -1,5 +1,9 @@
 /* Sección Encabezado */
 
+header{
+    padding: 10px;
+}
+
 .encabezado{
     display: flex;
     flex-direction: row;
@@ -19,6 +23,7 @@ main{
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    padding: 20px;
 }
 
 .productos{
@@ -32,6 +37,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 8px;
 }
 
 .contenedorTarjetaInfo{
@@ -63,6 +69,10 @@ main{
     gap: 40px;
 }
 
+input{
+    padding: 0 10px;
+}
+
 .contenedorBotones{
     display: flex;
     flex-flow: wrap;
@@ -75,7 +85,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 20px; */
+    padding: 20px;
 }
 
 .redesSociales{
@@ -91,6 +101,10 @@ footer{
     align-items: center;
 }
 
+.seccionPiePagina{
+    padding-top: 20px;
+}
+
 /* Responsive */
 /* Mobile */
 
@@ -103,20 +117,30 @@ footer{
 
    /* Sección Formulario */
 
+   .seccionFormulario{
+    padding: 20px 10px;
+   }
+
    .contenedorBotones{
         flex-flow: row;
         justify-content: space-between;
+    
     }
 
     /* Sección Productos */
 
     .seccionProductos{
-        flex-flow: wrap;
+        flex-flow: column wrap;
+        padding: 20px 0px 20px 0px;
+        gap: 20px;
     }
 
     .productos{
         gap: 20px;
-        padding: 10px;
+        padding: 20px;
     }
 
+    .redesSociales{
+        gap: 0;
+    }
 }

@@ -10,7 +10,6 @@ body{
 
 header{
     background: #22223B;
-    padding: 10px;
 }
 
 #logoGeek{
@@ -29,7 +28,6 @@ h1{
 
 .seccionProductos{
     width: 758px;
-    padding: 20px;
 }
 
 h2{
@@ -52,7 +50,6 @@ h2{
     height: 258px;
     color: white;
     border-radius: 10px;
-    padding: 8px;
     background: #22223B;
 }
 
@@ -100,7 +97,6 @@ input{
     width: 392px;
     height: 45px;
     border-radius: 20px;
-    padding: 0 10px;
     border: solid 1px #22223B;
 }
 
@@ -136,7 +132,6 @@ input:focus{
 /* Sección Footer */
 
 footer{
-    padding: 20px;
     background: #22223B;
     font-family: "Lato", sans-serif;
 }
@@ -209,7 +204,6 @@ footer{
     text-align: center;
     line-height: 1.5rem;
     color: white;
-    padding-top: 20px;
 }
 
 /* Responsive */
@@ -219,30 +213,35 @@ footer{
     /* Sección Formulario */
 
     .seccionFormulario{
+        width: auto;
+        height: auto;
+        border: solid 1px green;
+    }
+
+    .contenedorForm{
         width: 100%;
-        padding: 0px;
     }
 
     input{
-        width: 100%;
-        padding: 0px;
+        width: auto;
     }
-
+    
     .botonEnviar, .botonLimpiar{
-        width: 180px;
+        width: 160px;
     }
 
     /* Sección Productos */
 
     .seccionProductos{
-        width: 100%;
-        padding: 0px;
+        width: auto;
     }
 
     .productos{
+        width: auto;
         height: 470px;
-        width: 100%;
-        overflow-y: scroll;
+        overflow-x: scroll;
+        border-radius: 0;
+        box-shadow: none;
     }
 
     .tarjeta{
