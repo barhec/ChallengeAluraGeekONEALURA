@@ -44,23 +44,17 @@ h2{
     border-radius: 10px;
     box-shadow: gray 5px 5px 5px 0;
 
-    overflow: auto;
-    overflow: overlay;
-    scrollbar-gutter: stable;
+    /* overflow: auto; */
+    /* scrollbar-gutter: stable; */
+    scrollbar-width: none;
 }
 
 .productos::-webkit-scrollbar {
-    display: none;
-    background-color: transparent;
+    /* display: none; */
+    width: 0;
+    /* background-color: transparent; */
 }
 
-.productos::-webkit-scrollbar-thumb{
-    background-color: transparent;
-}
-
-.productos:hover::-webkit-scrollbar-thumb{
-    background-color: #09C;
-}
 
 .tarjeta{
     width: 28.7%;
