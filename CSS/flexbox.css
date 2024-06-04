@@ -30,7 +30,7 @@ main{
     display: flex;
     flex-flow: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     row-gap: 20px;
     padding: 20px;
 }

@@ -12,9 +12,9 @@ function crearTarjeta (name, price, image, id) {
             <img class="imgProductos" src="${image}" alt="${name}">
         </div>
         <div class="contenedorTarjetaInfo">
-            <p>${name}</p>
+            <p class="textosTarjeta">${name}</p>
             <div class="contenedorTarjetaPrecio">
-                <p>$${price}</p>
+                <p class="textosTarjeta">$${price}</p>
                 <button class="botonEliminar" data-id id="${id}">
                     <img class="imgEliminar" src="./assets/img-borrar.png" alt="Eliminar">
                 </button>
