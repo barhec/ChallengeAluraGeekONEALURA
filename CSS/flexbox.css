@@ -126,7 +126,6 @@ footer{
    .contenedorBotones{
         flex-flow: row;
         justify-content: space-between;
-    
     }
 
     /* Sección Productos */

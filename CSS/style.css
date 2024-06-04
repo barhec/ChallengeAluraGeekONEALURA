@@ -200,7 +200,6 @@ footer{
 .redesSociales .linkedin:hover, .redesSociales .linkedin:hover .tooltip, .redesSociales .linkedin:hover .tooltip::before,
 .redesSociales .instagram:hover, .redesSociales .instagram:hover .tooltip, .redesSociales .instagram:hover .tooltip::before,
 .redesSociales .curriculum:hover, .redesSociales .curriculum:hover .tooltip, .redesSociales .curriculum:hover .tooltip::before{
-    /* background: white; */
     color: white;
 }
 
@@ -222,18 +221,6 @@ footer{
         height: auto;
     }
 
-    /* .contenedorForm{
-        width: 100%;
-    } */
-
-    /* input{
-        width: auto;
-    } */
-    
-    /* .botonEnviar, .botonLimpiar{
-        width: 160px;
-    } */
-
     /* Sección Productos */
 
     .seccionProductos{
@@ -241,9 +228,7 @@ footer{
     }
 
     .productos{
-        /* width: auto; */
         height: 470px;
-        /* overflow-x: scroll; */
         border-radius: 0;
         box-shadow: none;
     }
