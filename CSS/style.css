@@ -43,18 +43,8 @@ h2{
     background: white;
     border-radius: 10px;
     box-shadow: gray 5px 5px 5px 0;
-
-    /* overflow: auto; */
-    /* scrollbar-gutter: stable; */
-    scrollbar-width: none;
+    overflow-y: scroll;
 }
-
-.productos::-webkit-scrollbar {
-    /* display: none; */
-    width: 0;
-    /* background-color: transparent; */
-}
-
 
 .tarjeta{
     width: 28.7%;
@@ -249,7 +239,7 @@ footer{
     .productos{
         /* width: auto; */
         height: 470px;
-        overflow-x: scroll;
+        /* overflow-x: scroll; */
         border-radius: 0;
         box-shadow: none;
     }

@@ -30,7 +30,8 @@ main{
     display: flex;
     flex-flow: wrap;
     align-items: center;
-    gap: 20px;
+    justify-content: space-evenly;
+    row-gap: 20px;
     padding: 20px;
 }
 
