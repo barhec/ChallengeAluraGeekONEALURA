@@ -4,7 +4,7 @@
   "description": "challenge-alura-geek",
   "main": "index.js",
   "scripts": {
-    "start": "node api/server.js"
+    "start": "json-server --watch ./database/db.json --port 3000"
   },
   "author": "barhec",
   "license": "ISC",

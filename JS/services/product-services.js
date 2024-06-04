@@ -1,11 +1,11 @@
 const listaDeProductos = () => {
-    return fetch("https://alurageek-fakeapi.vercel.app/products")
+    return fetch("http://localhost:3000/products")
         .then((res) => res.json())
         .catch((err) => console.log(err));
 };
 
 const crearProducto = (name, price, image) => {
-    return fetch("https://alurageek-fakeapi.vercel.app/products", {
+    return fetch("http://localhost:3000/products", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -22,7 +22,7 @@ const crearProducto = (name, price, image) => {
 
 const eliminarProducto = (id) => {
     console.log("Eliminar a --->", id);
-    return fetch(`https://alurageek-fakeapi.vercel.app/products/${id}`, {
+    return fetch(`http://localhost:3000/products/${id}`, {
         method: "DELETE",
         headers: {
             "Content-Type": "application/json",
